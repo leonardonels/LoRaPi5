@@ -1,5 +1,5 @@
 [project]
-name = "LoRaPi5"
+name = "lora-gpiozero"
 version = "0.0.3"
 dependencies = [
     "gpiozero>=2.0.1",
@@ -8,7 +8,7 @@ dependencies = [
 authors = [
   { name="goldenmatrix", email="goldenmatrix@gmail.com" },
 ]
-description = "A simple LoRa API for the raspberryPi5"
+description = "A simple implementation of LoRa for the raspberry pi5, utilising gpiozero and spidev already installed on Raspberry Pi OS."
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
@@ -19,5 +19,5 @@ license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
 [project.urls]
-Homepage = "https://github.com/leonardonels/LoRaPi5"
-Issues = "https://github.com/leonardonels/LoRaPi5/issues"
+Homepage = "https://github.com/leonardonels/lora-gpiozero"
+Issues = "https://github.com/leonardonels/lora-gpiozero/issues"
